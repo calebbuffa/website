@@ -1,18 +1,33 @@
 <head>
   <title>My Website</title>
-  <meta charset="UTF-8" />
-  <meta name="description" content="main page">
-  <meta name="keywords" content="html template">
 </head>
 
-<link rel='stylesheet' href='src/home_style.css' />
+<link rel='stylesheet' href='src/style/home_style.css' />
+<script>src = "src/js/home_script.js"</script>
 
 <body>
-  <nave>
-    <a href="index.html">Home</a>
-    <a href="src/pages/education.html">Education</a>
-    <a href="src/pages/professional.html">Professional Experience</a>
-    <a href="src/pages/projects.html">Projects</a>
-  </nave>
-  <script>src = "src/js/home_script.js"</script>
+  <div class="bgimage">
+    <div class="menu">
+      <div class="leftmenu">
+        <h4> Caleb Buffa </h4>
+      </div>
+      <div class="rightmenu">
+        <ul>
+          <li id="firstlist"><a href="index.html"></a>Home</li>
+          <li><a href="/src/pages/professional.html">Professional Experience</a></li>
+          <li><a href="/src/pages/education.html">Education</a></li>
+          <li><a href="/src/pages/projects.html">Projects</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="text">
+      <h4>SPATIAL ANALYTICS * CUSTOM DEVELOPMENT * DATA SCIENCE</h4>
+      <br><br><br>
+      <h3>A developer focused on deep learning research and applications</h3>
+      <button class="btn"
+        onclick="window.location.href='https://www.linkedin.com/in/caleb-buffa-0b0aa71b5/';">LinkedIn</button>
+      <button class="btn" onclick="window.location.href='https://github.com/calebbuffa';">GitHub</button>
+    </div>
+  </div>
 </body>
