@@ -1,33 +1,202 @@
+<!DOCTYPE html>
+
+<html>
+
 <head>
+  <meta charset="utf-8">
   <title>My Website</title>
+  <link rel='stylesheet' href='style.css' />
 </head>
 
-<link rel='stylesheet' href='style.css' />
-<script>src = "script.js"</script>
+<body></body>
+<header id="home">
+  <nav id="nav-wrap">
 
-<body>
-  <div class="bgimage">
-    <div class="menu">
-      <div class="leftmenu">
-        <h4> Caleb Buffa </h4>
-      </div>
-      <div class="rightmenu">
-        <ul>
-          <li><a href="index.html"></a>Home</li>
-          <li><a href="../professional/index.html">Professional Experience</a></li>
-          <li><a href="../education/index.html">Education</a></li>
-          <li><a href="../projects/index.html">Projects</a></li>
-        </ul>
-      </div>
+    <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+    <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-    </div>
-    <div class="text">
-      <h4>SPATIAL ANALYTICS * CUSTOM DEVELOPMENT * DATA SCIENCE</h4>
-      <br><br><br>
-      <h3>A language-agnostic developer focused on deep learning research</h3>
-      <button class="btn"
-        onclick="window.location.href='https://www.linkedin.com/in/caleb-buffa-0b0aa71b5/';">LinkedIn</button>
-      <button class="btn" onclick="window.location.href='https://github.com/calebbuffa';">GitHub</button>
+    <ul id="nav" class="nav">
+      <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+      <li><a class="smoothscroll" href="#about">About</a></li>
+      <li><a class="smoothscroll" href="#resume">Resume</a></li>
+      <li><a class="smoothscroll" href="#projects">Projects</a></li>
+    </ul> <!-- end #nav -->
+
+  </nav> <!-- end #nav-wrap -->
+
+  <div class="row banner">
+    <div class="banner-text">
+      <h1 class="responsive-headline">Hello! My Name is Caleb Buffa.</h1>
+      <h3>I'm a Saint Louis based <span>spatial analyst</span>, <span>custom developer</span> and <span>data
+          scientist</span> solving problems for customers nationwide. Please <a class="smoothscroll" href="#about">keep
+          scrolling to learn more about me</a>.</h3>
+      <hr />
+      <ul class="social">
+        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fa fa-github"></i></a></li>
+      </ul>
     </div>
   </div>
+
+  <p class="scrolldown">
+    <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+  </p>
+
+</header>
+
+<!-- About Section
+   ================================================== -->
+<section id="about">
+
+  <div class="row">
+
+    <div class="three columns">
+
+      <img class="profile-pic" src="../imgs/profilepic.jpg" alt="" />
+
+    </div>
+
+    <div class="nine columns main-col">
+
+      <h2>About Me</h2>
+
+      <p>Thank you for taking the time to look through my website! My name is Caleb Buffa and I am a language-agnostic
+        developer focused on deep learning.
+        Specifically, I enjoy building custom tools for clients, whether it be in Python, GoLang, Full-Stack, or R.
+        Within that field, I specialize in spatial analytics and computer vision.
+        My Research is currently focused on 3D LiDAR feature extraction. My primary subject matter expertise is in
+        International Relations, primarily analyzing non-state conflict such as terrorism.
+        If interested in working on an open-source project, please feel free to reach out to me with my contact info
+        below!</p>
+
+      <div class="row">
+
+        <div class="columns contact-details">
+
+          <h2>Contact Details</h2>
+          <p class="address">
+            <span>Caleb Buffa</span><br>
+            <span>Saint Louis, MO<br>
+              <span>(636)536-4789</span><br>
+              <span>calebbuffa@outlook.com</span><br>
+          </p>
+
+        </div>
+
+      </div> <!-- end row -->
+
+    </div> <!-- end .main-col -->
+
+  </div>
+
+</section> <!-- About Section End-->
+
+<section id="resume">
+
+  <!-- Education
+  ----------------------------------------------- -->
+  <div class="row education">
+
+    <div class="three columns header-col">
+      <h1><span>Education</span></h1>
+    </div>
+
+    <div class="nine columns main-col">
+
+      <div class="row item">
+
+        <div class="twelve columns">
+
+          <h3>Saint Louis University</h3>
+          <p class="info">M.S. Geographic Information Science <span>&bull;</span> <em class="date">August 2021</em></p>
+          <br><br>
+
+        </div>
+
+      </div> <!-- item end -->
+
+      <div class="row item">
+
+        <div class="twelve columns">
+
+          <h3>Saint Louis University</h3>
+          <p class="info">B.A. Political Science and Security & Strategic Intelligence <span>&bull;</span> <em
+              class="date">June 2020</em></p>
+
+        </div>
+
+      </div> <!-- item end -->
+
+    </div> <!-- main-col end -->
+
+  </div> <!-- End Education -->
+
+  <!-- Work
+      ----------------------------------------------- -->
+  <div class="row work">
+
+    <div class="three columns header-col">
+      <h1><span>Work</span></h1>
+    </div>
+
+    <div class="nine columns main-col">
+
+      <div class="row item">
+
+        <div class="twelve columns">
+
+          <h3>Environmental Systems Research Institute</h3>
+          <p class="info">Technical Analyst<span>&bull;</span> <em class="date">June 2021 - Present</em></p>
+
+          <ul>
+            <li>Build custom tools to enhance end-user experience of Esri Software</li>
+            <li>Research, engineer, and deploy deep learning models to solve computer vision tasks</li>
+          </ul>
+          <br><br>
+
+        </div>
+
+      </div> <!-- item end -->
+
+      <div class="row item">
+
+        <div class="twelve columns">
+
+          <h3>Bayer</h3>
+          <p class="info">Global Threats & Intelligence Analyst Co-Op <span>&bull;</span> <em class="date">June 2019 -
+              December 2019</em></p>
+          <ul>
+            <li>Leveraged open-source intelligence techniques to identify, monitor, and report on physical security
+              threats to company assets and personnel</li>
+            <li>Authored original assessments to proactively mitigate security risks</li>
+            <li>Lead intra-departmental effort to more effectively manage and analyze spatial data</li>
+          </ul>
+        </div>
+
+      </div> <!-- item end -->
+
+    </div> <!-- main-col end -->
+
+  </div> <!-- End Work -->
+
+</section> <!-- Resume Section End-->
+
+<!-- Portfolio Section
+   ================================================== -->
+<section id="projects">
+
+  <div class="row">
+
+    <div class="twelve columns collapsed">
+
+      <h1>Check Out Some of My Projects.</h1>
+
+    </div>
+
+  </div>
+
+</section> <!-- Portfolio Section End-->
+
 </body>
+
+</html>
