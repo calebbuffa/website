@@ -209,10 +209,6 @@ ul#nav li a {
     text-align: left;
 }
 
-/* ------------------------------------------------------------------ */
-/* e. Projects Section
-/* ------------------------------------------------------------------ */
-
 #projects {
    background: #ebeeee;
    padding-top: 90px;
@@ -235,7 +231,7 @@ ul#nav li a {
    color: #95A3A3;
 }
 
-.gallery {
+#projects .gallery {
    display: -ms-inline-grid;
    grid-template-columns: repeat(auto-fit);
    padding: 1%;
