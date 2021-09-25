@@ -8,7 +8,7 @@ header {
     height: 800px;
     min-height: 500px;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../imgs/home.webp") no-repeat top center;
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("imgs/home.webp") no-repeat top center;
     background-size: cover !important;
     -webkit-background-size: cover !important;
     text-align: center;
@@ -203,7 +203,7 @@ ul#nav li a {
 }
 
 /* ------------------------------------------------------------------ */
-/* e. Portfolio Section
+/* e. Projects Section
 /* ------------------------------------------------------------------ */
 
 #projects {
